@@ -1,7 +1,15 @@
-import React from "react";
+import styled from "styled-components";
+import PostForm from "../components/PostForm";
+
+const Wrapper = styled.div``;
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Wrapper>
+      <PostForm />
+    </Wrapper>
+  );
 };
-
 export default Home;
+
+// *accept : 확장자 타입정의
